@@ -120,7 +120,7 @@ export default class Game extends cc.Component {
 
   onDestroy() {
     this.resetBtnHandler(this.btnTaser);
-    this.setBtnHandler(this.btnCandy);
+    this.resetBtnHandler(this.btnCandy);
   }
 
   update(dt) {
